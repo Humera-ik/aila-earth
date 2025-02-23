@@ -23,7 +23,7 @@ function App() {
           element={<Home userInfo={userInfo} setUserInfo={setUserInfo} />}
         ></Route>
         <Route
-          path="/ReadMoreAndAct"
+          path="/read-more-and-act/:id"
           element={<ReadMoreAndAct userInfo={userInfo} />}
         ></Route>
         <Route

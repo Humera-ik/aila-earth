@@ -51,12 +51,14 @@ export function PartnerWithUs() {
     <div className="PartnerWithUs">
       <div className="a">
         <h2>Partner with Aila</h2>
+        <br />
         <p>
           In order to improve our service and provide more options for companies
           ready to reduce their carbon emissions, Aila is always looking for new
           partners. Leave us your details and lets discuss how we can make an
           impact!
         </p>
+        <br />
         <form onSubmit={handleSubmit}>
           <label For="partner_companyName">
             Company name

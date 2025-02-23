@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { Google } from "./Google.jsx";
 
 export function LogIn({setUserInfo}) {
-  
   return (
     <div className="LogIn">
       <div id="row">
@@ -33,12 +32,14 @@ export function LogIn({setUserInfo}) {
         <br />
         <br />
         <a href="#marketplace">Forgot your password?</a>
-        <br />
+        <br/>
+        <br/>
         <div id="three">
           <p>
             By logging in you agree to our <a href="#marketplace">Terms of Use</a> and acknowledge our <a href="#marketplace">Privacy Policy</a>. You also acknowledge that
             Aila uses cookies to give the best user experience.
           </p>
+          <br/>
           <p>
             This site is protected by reCAPTCHA Enterprise and Google Privacy
             Policy and Terms of Use apply.
@@ -47,10 +48,12 @@ export function LogIn({setUserInfo}) {
           <p id="s">
             <b>New to our platform?</b>
           </p>
+          <br/>
           <p>
             You can register in few easy steps and after completing any
             transactions also utilise our reporting and communication tools.
           </p>
+          <br/>
           <Link to="/get-started">
             <input type="button" value="Register" id="button1" />
           </Link>

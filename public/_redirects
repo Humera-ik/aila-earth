@@ -1,4 +1,4 @@
- /ReadMoreAndAct / 200
+ /read-more-and-act/:id / 200
  /login / 200
  /calculator / 200
  /about / 200

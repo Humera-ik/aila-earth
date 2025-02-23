@@ -6,7 +6,7 @@ import { useLocation } from "react-router-dom";
 import { fetchPartners } from "../Fetch";
 import { useState, useEffect } from "react";
 
-export function ReadMoreAndAct(props, { userInfo, setUserInfo }) {
+export function ReadMoreAndAct(props, { userInfo }) {
   const [details, setDetails] = useState();
 
   const fetchData = async function () {
@@ -108,7 +108,7 @@ export function ReadMoreAndAct(props, { userInfo, setUserInfo }) {
                         <p className="p3">{detail.partner_tell_us}</p>
                         <Link
                           onClick={() => window.location.reload(false)}
-                          to="/ReadMoreAndAct"
+                          to={`/read-more-and-act/${detail.id}`}
                           state={{ detail: detail }}
                         >
                           Read more & Act
